@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html len="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Borodinski</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+     <header class="main-header ">
+       <div class="container clearfix">
+         <nav class="main-nav">
+         <ul>
+           <li class="active"><a href="index.html">ГЛАВНАЯ</a></li>
+           <li><a href="#">Информация</a></li>
+           <li><a href="#">Новости</a></li>
+           <li><a href="#">Прайс-лист</a></li>
+           <li><a href="#">Магазин</a></li>
+           <li><a href="#">Продукты</a></li>
+         </ul>
+       </nav>
+         <section class="user">
+         <a href="#" >Войти</a>
+       </section>
+       </div>
+     </header>
+
+     <main class="index container ">
+         <div class="main-logo"></div>
+         <section class="features clearfix">
+           <section class="features-item">
+             <p class="feature-title">Быстро</p>
+             <p class="feature-text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА
+                ПРОЛЕТЯТ НЕЗАМЕТНО, И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ
+                 СТРИЖКИ-МИНУТКИ!</p>
+           </section>
+           <section class="features-item">
+             <p class="feature-title">Курто</p>
+             <p class="feature-text">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+               МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ
+               СЛУЧАЕ ВНЕШНЕ.</p>
+           </section>
+           <section class="features-item">
+             <p class="feature-title">Дорого</p>
+             <p class="feature-text">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА
+                И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ
+                ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+           </section>
+         </section>
+
+         <section class="index-block clearfix">
+           <article class="news-small">
+             <h2>Новости</h2>
+             <ul class="news-list">
+               <li class="news-item">
+                 <p class="news-title">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                 <time class="news-date" date="">11 января</time>
+               </li>
+               <li class="news-item">
+                 <p class="news-title">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД, ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                 <time class="news-date" date="">10 января</time>
+               </li>
+             </ul>
+             <a href="#" class="btn">Все новости</a>
+           </article>
+           <article class="gallery-small">
+             <h2>Фотогалерея</h2>
+             <figure class="gallery-content">
+               <a href="#"><img class="gallery-item" src="img/interior-1.jpg" width="286" height="164"></a>
+             </figure>
+             <button class="gallery-prev btn" type="button">Назад</button>
+             <button class="gallery-next btn" type="button">Вперед</button>
+           </article>
+         </section>
+         <section class="index-block clearfix">
+           <article class="contacts">
+             <h2>Контактная Информация</h2>
+             <p class="contacts-text">
+               BARBERSHOP «BORODINSKI»</br>
+               АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13</br>
+               ТЕЛЕФОН: +7 (495) 666-02-666</p>
+             <p class="contacts-text">
+               ВРЕМЯ РАБОТЫ:</br>
+               ПН — ПТ: С 10:00 ДО 22:00</br>
+               СБ — ВС: С 10:00 ДО 19:00</p>
+             <a href="#" class="btn">Как проехать</a>
+             <a href="#" class="btn">Обратная связь</a>
+           </article>
+           <article class="appointment">
+             <h2>Записаться</h2>
+             <p class="appointment-text">
+               УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ, И МЫ СВЯЖЕМСЯ С ВАМИ
+               ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+             </p>
+             <form class="appointment-form" action="https://echo.htmlacademy.ru"
+                   method="post">
+              <input type="text" class="form-field" placeholder="Date">
+              <input type="text" class="form-field" placeholder="Time">
+              <input type="text" class="form-field" placeholder="Name">
+              <input type="text" class="form-field" placeholder="Phone">
+              <button class="btn" type="submit">Отправить</button>
+             </form>
+           </article>
+         </section>
+     </main>
+     <footer class="main-footer">
+       <div class="container clearfix">
+         <section class="footer-contacts">
+           <p>BARBERSHOP «BORODINSKI»</br>
+           <a href="#">АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13</a>
+         </br>ТЕЛЕФОН: +7 (495) 666-02-666</p>
+         </section>
+         <section class="footer-socials">
+           <p> ДАВАЙТЕ ДРУЖИТЬ!</p>
+           <a href="#" class="socials vk">VKontakte</a>
+           <a href="#" class="socials fb">Facebook</a>
+           <a href="#" class="socials insta">Instagram</a>
+         </section>
+         <section class="footer-copyright">
+           <p> Powered by ME </p>
+         </section>
+       </div>
+     </footer>
+
+     <div class="popup-backdrop">
+      <div class="login-popup">
+        <a href='#' class="login-popup-close"></a>
+        <h2> Вход в личный кабинет </h2>
+        <form class="login-form" method="post" action="/log">
+          <input class="login-field" type="text" name="login" placeholder="Логин"><div class="icon icon-user"></div>
+          <input class="password-field" type="password" name="password" placeholder="Пароль"><div class="icon icon-lock"></div>
+          <a class="restore" href="/restore">Я забыл пароль</a>
+          <input id="remember" type="checkbox" name="remember">
+          <label for="remember">Запомните меня</label>
+          <input type="submit" class="btn" value="Войти">
+        </form>
+      </div>
+
+     </div>
+     <script>
+
+
+var link = document.querySelector('.user a');
+var popup = document.querySelector('.popup-backdrop');
+
+var popupLog = document.querySelector('.login-popup');
+var close = popup.querySelector('.login-popup-close');
+var form = popup.querySelector('form');
+var login = form.querySelector('.login-field');
+var password = form.querySelector('.password-field');
+var storage = localStorage.getItem('login');
+
+link.addEventListener('click', function(event) {
+ event.preventDefault();
+ popup.classList.add('modal-window-show');
+ if (storage) {
+   login.value = storage;
+   password.focus();
+ } else {
+   login.focus();
+ }
+}, false);
+
+close.addEventListener('click', function(event) {
+ event.preventDefault();
+ popup.classList.remove('modal-window-show');
+ popupLog.classList.remove('login-popup-error');
+}, false);
+
+login.addEventListener('change', function(event) {
+  popupLog.classList.remove('login-popup-error');
+});
+
+password.addEventListener('change', function(event) {
+  popupLog.classList.remove('login-popup-error');
+});
+
+form.addEventListener('submit', function(event) {
+ if (!login.value || !password.value) {
+   event.preventDefault();
+   popupLog.classList.add('login-popup-error');
+ } else {
+   localStorage.setItem('login', login.value);
+ }
+}, false);
+
+window.addEventListener('keydown', function(event) {
+ if (event.keyCode == 27 && popup.classList.contains('modal-window-show')) {
+   popup.classList.remove('modal-window-show');
+ }
+}, false);
+
+
+
+     </script>
+  </body>
+</html>
